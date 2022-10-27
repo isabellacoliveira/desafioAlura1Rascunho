@@ -3,9 +3,19 @@
     margin: 0px; 
 }
 
+ /* row justify content center */
+ /* flex-direction: row; */
+
 body {
     background: #191970;     
+    
 } 
+
+#vertical, #vertical2 {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
 
 .cabecalho  {
    display: flex;
@@ -15,25 +25,6 @@ body {
    background: #000;
    width: 100%;
 } 
-
-#vertical, #vertical2 {
-    text-align: center;
-    display: flex;
-    justify-content: space-around;
-}
-
-.menu {
-    display: block;
-    margin: 5px;
-    color: #FFF;
-    
-}
-
-
-#codigo , #comunidade {
-    width: 50px;
-}
-
 
 #img1 {
     height: 100px;
@@ -62,17 +53,10 @@ body {
     text-align: right;
 }
 
-.corpo{
-    display: flex;
-    flex-wrap: nowrap; /* elementos fiquem alinhados na mesma linha e em ordem*/
-    text-align: center;
-}
-
-p {
-    text-align: center; 
-}
-
 .menu {
+    display: block;
+    margin: 5px;
+    color: #FFF;
     margin: 100px 20px 100px 20px;
     justify-content: center;
 }
@@ -82,63 +66,17 @@ p {
     padding: 0px 170px 0px 0px;
 }
 
-h6 {
-    text-align: left;
-}
-
-select, #b2 {
-    display: block;
-    margin: 20px 20px 20px 0px;
-    border-radius: 10px;
-    height: 50px;
-    width: 300px;
-    background: #23238E;
-    border: none;
-    outline: 0;
-}
-
-#b1{
-    display: block;
-    margin: 20px 20px 20px 0px;
-    border-radius: 10px;
-    height: 50px;
-    width: 300px;
-    background: #ADD8E6;
-    border: none;
-    outline: 0;
-}
-
 .menu img {
     display: flex;
 }
 
-#input2, #input3 {
-    display: block;
-    margin: 20px 20px 20px 0px;
-    border-radius: 10px;
-    height: 50px;
-    width: 300px;
-    background: #23238E;
-    border: none;
-    outline: 0;
-    padding: 10px;
-}
-
-#input3 {
-    height: 100px;
-}
-
-.blocoFinal {
-    padding: 10px 0px 200px 0px;
+#codigo , #comunidade {
+    width: 50px;
 }
 
 .caixaDeTexto {
     margin: 20px 20px 20px 0px;
     display: block;    
-}
-
-.menu, .caixaDeTexto, .final {
-    display: block;
 }
 
 #caixaTexto {
@@ -153,13 +91,10 @@ select, #b2 {
     padding: 10px;
 }
 
-h2 {
-    text-align: center;
-}
-
 #botao{
     display: inline;
-    flex-wrap: nowrap; /* elementos fiquem alinhados na mesma linha e em ordem*/
+    /* elementos fiquem alinhados na mesma linha e em ordem*/
+    flex-wrap: nowrap; 
     text-align: center;
     margin: 20px 200px 20px 200px;
     border-radius: 10px;
@@ -168,13 +103,75 @@ h2 {
     background: #23238E;
     border: none;
     outline: 0;
+    
 }
 
-.imagemBeneficios {
-    width: 50%; 
-    height: 50%; 
-
-
+#botao:hover {
+    background-color: #6495ED;
 }
+
+
+.blocoFinal {
+    padding: 10px 0px 200px 0px;
+}
+
+#input2, #input3 {
+    display: block;
+    margin: 20px 20px 20px 0px;
+    border-radius: 10px;
+    height: 50px;
+    width: 300px;
+    background: #23238E;
+    border: none;
+    outline: 0;
+    padding: 10px;
+    
+}
+
+#input3 {
+    height: 100px;
+}
+
+#b1{
+    display: block;
+    margin: 20px 20px 20px 0px;
+    border-radius: 10px;
+    height: 50px;
+    width: 300px;
+    background: #ADD8E6;
+    border: none;
+    outline: 0;
+}
+
+select, #b2 {
+    display: block;
+    margin: 20px 20px 20px 0px;
+    border-radius: 10px;
+    height: 50px;
+    width: 300px;
+    background: #23238E;
+    border: none;
+    outline: 0;
+}
+
+/* união dos 3 blocos da horizontal */
+.menu, .caixaDeTexto, .final {
+    display: block;
+}
+
+
+p {
+    text-align: center; 
+}
+
+h6 {
+    text-align: left;
+}
+
+h2 {
+    text-align: center;
+}
+
+
 
 
