@@ -1,0 +1,180 @@
+* {
+    padding: 0px; 
+    margin: 0px; 
+}
+
+body {
+    background: #191970;     
+} 
+
+.cabecalho  {
+   display: flex;
+   flex-wrap: nowrap; /* elementos fiquem alinhados na mesma linha e em ordem*/
+   text-align: center;
+   justify-content: space-around;
+   background: #000;
+   width: 100%;
+} 
+
+#vertical, #vertical2 {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu {
+    display: block;
+    margin: 5px;
+    color: #FFF;
+    
+}
+
+
+#codigo , #comunidade {
+    width: 50px;
+}
+
+
+#img1 {
+    height: 100px;
+    width: 200px;
+    /* margin: 20px 10px 20px 20px; */
+    text-align: left;
+}
+
+#input1 {
+    margin: 20px 200px 20px 200px;
+    border-radius: 10px;
+    height: 50px;
+    width: 500px;
+    background: #23238E;
+    border: none;
+    outline: 0;
+    padding: 10px;
+    text-align: center;
+
+}
+
+#img2 {
+    height: 50px;
+    width: 50px;
+    margin: 20px 20px 20px 20px;
+    text-align: right;
+}
+
+.corpo{
+    display: flex;
+    flex-wrap: nowrap; /* elementos fiquem alinhados na mesma linha e em ordem*/
+    text-align: center;
+}
+
+p {
+    text-align: center; 
+}
+
+.menu {
+    margin: 100px 20px 100px 20px;
+    justify-content: center;
+}
+
+.menu p {
+    display: flex;
+    padding: 0px 170px 0px 0px;
+}
+
+h6 {
+    text-align: left;
+}
+
+select, #b2 {
+    display: block;
+    margin: 20px 20px 20px 0px;
+    border-radius: 10px;
+    height: 50px;
+    width: 300px;
+    background: #23238E;
+    border: none;
+    outline: 0;
+}
+
+#b1{
+    display: block;
+    margin: 20px 20px 20px 0px;
+    border-radius: 10px;
+    height: 50px;
+    width: 300px;
+    background: #ADD8E6;
+    border: none;
+    outline: 0;
+}
+
+.menu img {
+    display: flex;
+}
+
+#input2, #input3 {
+    display: block;
+    margin: 20px 20px 20px 0px;
+    border-radius: 10px;
+    height: 50px;
+    width: 300px;
+    background: #23238E;
+    border: none;
+    outline: 0;
+    padding: 10px;
+}
+
+#input3 {
+    height: 100px;
+}
+
+.blocoFinal {
+    padding: 10px 0px 200px 0px;
+}
+
+.caixaDeTexto {
+    margin: 20px 20px 20px 0px;
+    display: block;    
+}
+
+.menu, .caixaDeTexto, .final {
+    display: block;
+}
+
+#caixaTexto {
+    background: #000;
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    color: #FFF;
+    border: solid #ADD8E6;
+    border-width: 30px;
+    margin: 20px 200px 20px 200px;
+    padding: 10px;
+}
+
+h2 {
+    text-align: center;
+}
+
+#botao{
+    display: inline;
+    flex-wrap: nowrap; /* elementos fiquem alinhados na mesma linha e em ordem*/
+    text-align: center;
+    margin: 20px 200px 20px 200px;
+    border-radius: 10px;
+    height: 50px;
+    width: 500px;
+    background: #23238E;
+    border: none;
+    outline: 0;
+}
+
+.imagemBeneficios {
+    width: 50%; 
+    height: 50%; 
+
+
+}
+
+
