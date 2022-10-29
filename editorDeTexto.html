@@ -10,11 +10,19 @@
 
     <div id="vertical">
         <div class="cabecalho">
-            <header>
-                <img src="DEVDITOR.png" id="img1">
-                <input type="text" id="input1" placeholder="Busque por algo">
-                <img src="perfil.png" id="img2">
-            </header>
+            <nav id="nav">
+                <header>
+                    <div id="bloco1">
+                        <img src="DEVDITOR.png" id="img1">
+                    </div>
+                    <div id="bloco2">
+                        <input type="text" id="input1" placeholder="Busque por algo">
+                    </div>
+                    <div id="bloco3">
+                        <img src="perfil.png" id="img2">
+                    </div>
+                </header>
+            </nav>
         </div>
     </div>
 
@@ -32,8 +40,9 @@
                     </p>
             </div>
 
-            <div class="caixaDeTexto">          
-                <textarea id="caixaTexto" placeholder="Digite seu código"></textarea>
+            <div class="caixaDeTexto">
+                <textarea id="caixaTexto" placeholder="Digite seu código" style="position: relative;"></textarea>
+                <img src="botoes.png" style="position: absolute;">     
                 <button id="botao">Vizualizar com highlight</button>
             </div>
     

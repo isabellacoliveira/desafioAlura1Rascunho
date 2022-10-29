@@ -11,6 +11,10 @@ body {
     
 } 
 
+#bloco1, #bloco2, #bloco3 {
+    
+}
+
 #vertical, #vertical2 {
     text-align: center;
     display: flex;
@@ -26,11 +30,20 @@ body {
    width: 100%;
 } 
 
+
+#nav {
+    width: 100%;
+}
+
 #img1 {
     height: 100px;
     width: 200px;
     /* margin: 20px 10px 20px 20px; */
     text-align: left;
+}
+
+h6 {
+    color: #FFF;
 }
 
 #input1 {
@@ -43,7 +56,6 @@ body {
     outline: 0;
     padding: 10px;
     text-align: center;
-
 }
 
 #img2 {
@@ -57,8 +69,10 @@ body {
     display: block;
     margin: 5px;
     color: #FFF;
-    margin: 100px 20px 100px 20px;
+    margin: 0 auto;
     justify-content: center;
+    width: 100%;
+    padding: 100px 0px 0px 100px;
 }
 
 .menu p {
@@ -75,8 +89,10 @@ body {
 }
 
 .caixaDeTexto {
-    margin: 20px 20px 20px 0px;
+    margin: 0 auto;
     display: block;    
+    outline: 0;
+    
 }
 
 #caixaTexto {
@@ -87,8 +103,9 @@ body {
     color: #FFF;
     border: solid #ADD8E6;
     border-width: 30px;
-    margin: 20px 200px 20px 200px;
+    margin: 30px 200px 20px 210px;
     padding: 10px;
+    outline: 0; 
 }
 
 #botao{
@@ -107,12 +124,13 @@ body {
 }
 
 #botao:hover {
-    background-color: #6495ED;
+    background-color: #ADD8E6;
 }
 
 
 .blocoFinal {
-    padding: 10px 0px 200px 0px;
+    padding: 70px 0px 200px 5px;
+    width: 100%;
 }
 
 #input2, #input3 {
@@ -152,6 +170,10 @@ select, #b2 {
     background: #23238E;
     border: none;
     outline: 0;
+}
+
+#b2:hover{
+    background-color: #ADD8E6;
 }
 
 /* união dos 3 blocos da horizontal */
