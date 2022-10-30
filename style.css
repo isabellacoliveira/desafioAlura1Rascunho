@@ -8,7 +8,7 @@
  /* flex-direction: row; */
 
 body {
-    background: # 191970;     
+    background: #191970;     
     
 } 
 
@@ -103,7 +103,6 @@ h6 {
     margin: 0 auto;
     display: block;    
     outline: 0;
-    
 }
 
 #caixaTexto {
