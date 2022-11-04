@@ -2,31 +2,28 @@
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>EDITOR DE TEXTO</title>
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
 
-    <div id="vertical">
-            <nav>
-                <header>
+    <div class="vertical1">
                     <div id="bloco1">
                         <img src="DEVDITOR.png">
                     </div>
                     <div id="bloco2">
-                        <input type="text" placeholder="Busque por algo">
+                        <input placeholder="Busque por algo">
                     </div>
                     <div id="bloco3">
                             <img src="photo.png">      
                             <p>Harry</p>                   
                     </div>
-                </header>
-            </nav>
-
     </div>
 
 
-    <div id="vertical2">
+    <div class="vertical2">
             <div class="menu">
                 <h6>MENU</h6>
                 <div id="blocoCodigo">
@@ -41,15 +38,13 @@
                 </div>
             </div>
 
-            <div class="caixaDeTexto">
-                <section>
+            <div class="caixaDeTexto">      
                     <div id="fundo">
                         <img src="code_editor.png">
+                    </div>  
+                    <div id="caixa">
+                        <textarea id="caixaTexto" placeholder="Digite seu código"></textarea>
                     </div>
-                    <div>
-                        <textarea id="caixaTexto" placeholder="Digite seu código" style="position: relative;"></textarea>
-                    </div>
-                </section>
                 <button id="botao">Vizualizar com highlight</button>
             </div>
 
