@@ -3,23 +3,11 @@
 // a linguagem e associe essa ação ao botão salvar projeto (ok)
 // ao ser salvo, tudo isso deve ser adicionado a página de comunidade 
 // lá deve aparecer o card com a cor, o nome do projeto e a descrição 
+const desczinha = document.querySelector('#descProj')
+console.log(desczinha)
+
 const textoescrito = document.getElementsByTagName('code')[0]
 console.log(textoescrito) 
-
-// verificar quem está com o conteúdo socorro e definir um inner html para esse elemento de forma que ele receba o que foi escrito na caixa de texto 
-// function salvacao(){
-//     $(document).ready(function () {
-//         $("#b2").click(function () {
-//             var nomeando = $("#text1").val();
-//             var descrevendo = $("#text2").val();
-//             var pegaLinguagem = $(".linguagem").val();
-//             var pegaCor = $("#b1").val();
-//             textoescrito.innerHTML = `<code class="preview-hljs ${linguagem.value}" contenteditable="true" aria-label="Editor de código" ></code>`
-//             var pegaConteudo = $("code").val()
-//             alert(nomeando + descrevendo + pegaLinguagem + pegaCor  + pegaConteudo);
-//         });
-//     });
-// }
 
 b2.addEventListener("click", function(e) {
     const nomeando = document.querySelector("#text1")
@@ -38,30 +26,33 @@ b2.addEventListener("click", function(e) {
     const valueCor = pegaCor.value; 
     console.log(valueCor)
 
-    const codiguinho = document.querySelector('.hljs-name')
-    console.log(codiguinho)
+    const codigoDaCaixa = document.querySelectorAll('.preview-hljs')
+    console.log(codigoDaCaixa)
 
-    const cola  = document.querySelector('.hljs-comment')
-    console.log(cola)
 
 })
 
+function escreveTitulo() {
+    const sla = document.querySelector("#text1").value
+    document.getElementById("nomeProj").innerHTML = sla
+    console.log(sla)
+}
 
-
-
-
-
-
-
-
-
-// var titulando = document.getElementById('nomeProj')
-// console.log(titulando)
-
-// var desc = document.getElementById('descProj')
-// console.log(desc)
-
-// function colocaConteudo() {
-    
+// function confereClick(e) {
+//     if(this === true) {
+//         console.log("clicou")
+//     } else {
+//         console.log("a")
+//     }
 // }
+// confereClick()
+
+
+
+
+
+
+
+
+
 
