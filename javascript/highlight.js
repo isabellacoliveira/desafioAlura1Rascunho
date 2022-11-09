@@ -3,7 +3,7 @@ const linguagem = document.querySelector('.linguagem')
 console.log(linguagem)
 
 // chamar a div 
-const areaDoCodigo = document.querySelector('.preservar')
+const areaDoCodigo = document.getElementsByTagName('code')[0]
 console.log(areaDoCodigo) 
 
 // const codiguinho = document.getElementsByTagName('code')
@@ -20,6 +20,7 @@ function aplicaHighlight() {
     const codigo = areaDoCodigo.innerText;
     areaDoCodigo.innerHTML = `<code class="preview-hljs ${linguagem.value}" contenteditable="true" aria-label="Editor de código" ></code>`
     areaDoCodigo.querySelector("code").textContent = codigo;
+    // codeArea.firstChild.innerText = code.innerText
     hljs.highlightElement(areaDoCodigo.querySelector("code"))
 }
 

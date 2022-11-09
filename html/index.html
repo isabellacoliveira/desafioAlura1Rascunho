@@ -47,25 +47,24 @@
                 </div>
             </div>
 
-            <div class="caixaDeTexto">  
-   
-
+            <!-- preservar e caixa -->
+            <div class="caixaDeTexto"> 
                     <div id="caixa">
-                        
-                <div class="barraSuperior">
-                    <div id="vermelho">
-                       <img src="../imagens/vermelho.png" alt="">
-                    </div>
-                    <div id="amarelo">
-                        <img src="../imagens/amarelo.png" alt="">
-                    </div>
-                    <div id="verde">
-                        <img src="../imagens/verde.png" alt="">
-                    </div>
-                </div> 
                 <div class="preservar">
-                        <code class="preview-hljs" contenteditable="true" aria-label="Editor de código" >socorro</code>
-                    </div>
+                        <div class="barraSuperior">
+                            <div id="vermelho">
+                            <img src="../imagens/vermelho.png" alt="">
+                            </div>
+                            <div id="amarelo">
+                                <img src="../imagens/amarelo.png" alt="">
+                            </div>
+                            <div id="verde">
+                                <img src="../imagens/verde.png" alt="">
+                            </div>
+
+                        </div id="parteCode"> 
+                            <code class="preview-hljs" contenteditable="true" aria-label="Editor de código" >socorro</code>
+                        </div>
                     </div>
                 <button id="botao" onclick="aplicaHighlight()">Vizualizar com highlight</button>
             </div>
@@ -73,8 +72,8 @@
     <div class="blocoFinal">
         
         <h6>SEU PROJETO</h6>
-            <textarea id="text1" placeholder="Nome do seu projeto"></textarea>
-            <textarea id="text2" placeholder="Descrição do seu projeto"></textarea> 
+            <textarea id="text1" placeholder="Nome do seu projeto" value="nomeProj"></textarea>
+            <textarea id="text2" placeholder="Descrição do seu projeto" value="descricaoProj"></textarea> 
         
 
         <h6>PERSONALIZAÇÃO</h6>
@@ -97,7 +96,7 @@
                  <input id="b1" type="color" value="#6BD1FF"></input>
             </div>
        
-        <button id="b2">Salvar projeto</button>
+        <button id="b2" onclick="salvacao()">Salvar projeto</button>
             
         </div>
     </div> 
@@ -105,6 +104,8 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"></script>
 <script src="../javascript/highlight.js"></script>
 <script src="../javascript/changeColor.js"></script>
+<script src="../javascript/salvandoProjeto.js"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
     </body>
 </html>
 

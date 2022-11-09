@@ -40,12 +40,7 @@
     }
 
     #caixa {
-        padding-top: 5px;
-        padding-bottom: 5px;
-        padding-right: 8px;
-        margin: auto;
         background-color: #6BD1FF;
-        border-radius: 8px;
     }
 
     #botao {
@@ -61,7 +56,7 @@
             height: 190px;
             margin-top: 50px;
             margin-left: 15px;  
-            display: flex;          
+            display: flex;     
         }
 
         #fundo img {

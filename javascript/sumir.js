@@ -1,10 +1,20 @@
 // usaremos o javascript para mudar o conteúdo que aparece ao passar o mouse por cima 
-function mOver(obj) {
-    obj.innerHTML="Obrigado"
+const comentario = document.getElementById('comentario')
+console.log(comentario)
+
+const coracao = document.getElementById('coracao')
+console.log(coracao)
+
+const divisao = document.getElementById('descritivo')
+console.log(divisao)
+
+function mOver(divisao) {
+    divisao.innerHTML= comentario
+    divisao.innerHTML= coracao
 }
 
-function mOut(obj) {
-    obj.innerHTML="Passe o mouse em mim"
+function mOut(divisao) {
+    divisao.innerHTML= " "
 }
 
 
