@@ -3,18 +3,11 @@ const linguagem = document.querySelector('.linguagem')
 console.log(linguagem)
 
 // chamar a div 
-const areaDoCodigo = document.getElementsByTagName('code')[0]
+const areaDoCodigo = document.querySelector('#parteCode')
 console.log(areaDoCodigo) 
 
-// const codiguinho = document.getElementsByTagName('code')
-// console.log(codiguinho) 
-
-const selecionaBotao = document.querySelector('#botao')
+ const selecionaBotao = document.querySelector('#botao')
 console.log(selecionaBotao) 
-
-// não funciona
-// const barra = document.getElementsByClassName('.barraSuperior')
-// console.log(barra)
 
 function aplicaHighlight() {
     const codigo = areaDoCodigo.innerText;

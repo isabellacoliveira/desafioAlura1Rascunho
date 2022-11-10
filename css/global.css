@@ -179,6 +179,11 @@ body {
     outline: 0;
 }
 
+#recebeCard {
+    display: block;    
+    outline: 0;
+}
+
 select, #b2 {
     display: block;
     margin: 20px 20px 20px 0px;
@@ -240,6 +245,7 @@ option {
     background-color: #6BD1FF;
 }
 
+
 .barraSuperior {
     display: block;
     padding: 10px;
@@ -292,4 +298,18 @@ code {
     display: inline;
 }
 
+#contemCards {
+    width: 100%;
+    display: none;
+}
 
+#cardsCriados {
+    display: flex;
+    /* width: 100%; */
+}
+
+.cardizins {
+    width: 100%;
+    /* margin: 10px; */
+    display: inline-block;
+}
