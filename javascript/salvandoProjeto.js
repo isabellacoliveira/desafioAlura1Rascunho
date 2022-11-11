@@ -52,7 +52,7 @@ function criarContainer() {
 <div class="preservar">
     <div class="barraSuperior">
         <div id="vermelho">
-           <img src="../imagens/vermelho.png" alt="">
+           <img src="../imagens/vermelho.png" alt="">${projetinho.detalhesDoProjeto.nome}
         </div>
         <div id="amarelo">
             <img src="../imagens/amarelo.png" alt="">
